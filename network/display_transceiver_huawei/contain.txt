@@ -1,0 +1,71 @@
+
+hostip 10.188.192.164
+
+<ZJG_DQ_JXQ_YXY_JXL-C_2F_S628X_2>
+display transceiver diagnosis interface
+Info: Port GigabitEthernet0/0/1, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/2, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/3, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/4, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/5, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/6, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/7, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/8, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/9, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/10, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/11, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/12, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/13, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/14, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/15, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/16, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/17, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/18, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/19, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/20, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/21, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/22, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/23, valid only on optical interface. 
+
+Info: Port GigabitEthernet0/0/24, valid only on optical interface. 
+
+Port XGigabitEthernet0/0/1 transceiver diagnostic information:
+Parameter        Current       Low Alarm    High Alarm
+  Type            Value        Threshold    Threshold    Status
+-------------   ---------      ---------    ----------   --------
+TxPower(dBm)    -3.37          -10.19       2.50         normal
+RxPower(dBm)    -3.75          -16.40       2.50         normal
+Current(mA)     34.32          2.00         90.00        normal
+Temp.(C)      55.34          -10.00       80.00        normal
+Voltage(V)      3.31           2.97         3.63         normal
+
+Port XGigabitEthernet0/0/2 transceiver diagnostic information: 
+Info: Transceiver is absent. 
+
+Port XGigabitEthernet0/0/3 transceiver diagnostic information: 
+Info: Transceiver is absent. 
+
+Port XGigabitEthernet0/0/4 transceiver diagnostic information: 
+Info: Transceiver is absent. 

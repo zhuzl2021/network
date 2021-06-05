@@ -1,0 +1,13 @@
+Value Filldown Host_ip (\S+)
+Value Filldown Host_name (\S+)
+Value INTERFACE (\w+/\d+/\d+)
+Value PHY (\S+)
+Value AutoNeg (\S+)
+Value Duplex (\S+)
+Value Required Bandwidth (\S+)
+
+
+Start
+ ^hostip\s+${Host_ip}
+ ^<${Host_name}>
+ ^${INTERFACE}\s+${PHY}\s+${AutoNeg}\s+${Duplex}\s+${Bandwidth} -> Record

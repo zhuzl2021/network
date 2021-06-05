@@ -1,0 +1,14 @@
+Value Filldown Host_ip (\S+)
+Value Filldown Host_name (\S+)
+Value INTERFACE (\S+)
+Value Required Tx (\S+)
+Value Rx (\S+)
+
+Start
+ ^hostip\s+${Host_ip}
+ ^<${Host_name}>
+ ^Port\s+${INTERFACE}
+ ^TxPower\(dBm\)\s+${Tx}
+ ^RxPower\(dBm\)\s+${Rx} -> Record
+
+
